@@ -1,9 +1,9 @@
 # ANGULAR BOOTSTRAP APP 
 
 ## Description
+AngularJS app base with Bootstrap.
 
-
-## Dependances
+## Dependancies
 * angular
 * angular-bootstrap-npm
 * bootstrap-sass
