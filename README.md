@@ -3,7 +3,7 @@
 ## Description
 AngularJS app base with Bootstrap.
 
-## Dependancies
+## Dependencies
 * angular
 * angular-bootstrap-npm
 * bootstrap-sass
@@ -15,4 +15,6 @@ AngularJS app base with Bootstrap.
 1.  Install dependencies
     > $ npm install
     
-2.  
+2.  Copy "bootstrap.scss" in node_modules and paste it in app/assets/sass/ with the name bootstrap_custom.scss
+
+3.  

@@ -3,15 +3,21 @@
 <!--[if IE 7]><html lang="fr" dir="ltr" class="fr ltr no-js ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
 <!--[if IE 8]><html lang="fr" dir="ltr" class="fr ltr no-js ie8 lt-ie9 lt-ie10"><![endif]-->
 <!--[if IE 9]><html lang="fr" dir="ltr" class="fr ltr no-js ie9 lt-ie10"><![endif]-->
-<!--[if gt IE 9]><!--><html lang="fr dir="ltr" class="fr ltr no-js""><!--<![endif]-->
+<!--[if gt IE 9]><!--><html lang="fr dir="ltr" class="fr ltr no-js"" ng-app="app"><!--<![endif]-->
     
     <head>        
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0">
         <link type="text/css" rel="stylesheet" href="assets/css/app.css" />
+        <title></title>
     </head>
     
     <body>
+        
+        <div ng-view></div>
+        
+        <script class="../node_modules/angular/angular.js"></script>
+        <script class="app.js"></script>
         
     </body>
     
