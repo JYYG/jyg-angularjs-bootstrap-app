@@ -1,0 +1,18 @@
+{
+  "name": "jyg-angularjs-bootstrap-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
