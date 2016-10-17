@@ -17,4 +17,5 @@ AngularJS app base with Bootstrap.
     
 2.  Copy "bootstrap.scss" in node_modules and paste it in app/assets/sass/ with the name bootstrap_custom.scss
 
-3.  
+3.  Launch Node server
+    > $ node server.js

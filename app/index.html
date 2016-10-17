@@ -12,12 +12,16 @@
         <title></title>
     </head>
     
-    <body>
+    <body ng-controller="MainCtrl">
         
         <div ng-view></div>
         
-        <script class="../node_modules/angular/angular.js"></script>
-        <script class="app.js"></script>
+        <!-- LIBS -->
+        <script src="../node_modules/angular/angular.js"></script>
+        <script src="../node_modules/angular-route/angular-route.js"></script>
+        
+        <!-- SCRIPTS -->
+        <script src="app.js"></script>
         
     </body>
     
